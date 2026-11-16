@@ -1,0 +1,26 @@
+{
+  "name": "mailpilot-ai",
+  "version": "1.0.0",
+  "private": true,
+  "description": "MailPilot AI - Intelligent Executive Email Management Dashboard",
+  "scripts": {
+    "postinstall": "npm --prefix client install && npm --prefix server install",
+    "install:all": "npm --prefix client install && npm --prefix server install",
+    "build:client": "npm --prefix client run build",
+    "build:server": "npm --prefix server run build",
+    "build": "npm --prefix client run build && npm --prefix server run build",
+    "start": "npm --prefix server start",
+    "dev:client": "npm --prefix client run dev",
+    "dev:server": "npm --prefix server run dev"
+  },
+  "keywords": [
+    "email-assistant",
+    "ai-dashboard",
+    "gemini-api",
+    "react",
+    "typescript",
+    "saas"
+  ],
+  "author": "MailPilot AI Team",
+  "license": "MIT"
+}
